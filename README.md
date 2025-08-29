@@ -39,6 +39,7 @@ const newDiv = document.createElement('div');
 Once the element is created, it needs to be attached to an existing parent element within the DOM tree. appendChild() using to inserted into DOM.
 
 const parentElement = document.getElementById('container');
+
 parentElement.appendChild(newDiv);
 
 #### 3.What is Event Bubbling and how does it work?
