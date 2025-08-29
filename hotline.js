@@ -27,7 +27,7 @@ function getElement(id) {
     //  console.log(serviceNumber);
     const serviceNumber=callButton.parentNode.parentNode.children[1].children[2].innerText;
     // console.log(serviceNumber);
-      alert(`Calling 📞 ${serviceName} (${serviceNumber})...`);
+      alert(`📞Calling ${serviceName} (${serviceNumber})...`);
       const historyContainer=getElement("History-container");
       const historyDiv=document.createElement("div");
       historyDiv.innerHTML=`
