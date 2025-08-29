@@ -13,6 +13,7 @@
 
     example:
     const items = document.getElementsByClassName("list-item");
+  
     for (let item of items) {
     console.log(item.innerText);
     }
@@ -36,7 +37,8 @@ const newDiv = document.createElement('div');
 
 **Insert into DOM:**
 Once the element is created, it needs to be attached to an existing parent element within the DOM tree. appendChild() using to inserted into DOM.
- const parentElement = document.getElementById('container');
+
+const parentElement = document.getElementById('container');
 parentElement.appendChild(newDiv);
 
 #### 3.What is Event Bubbling and how does it work?
